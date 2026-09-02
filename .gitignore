@@ -12,6 +12,7 @@
 /build
 /node_modules
 /npm-debug.log
+.env
 /test.php
 /main.html
 
@@ -25,6 +26,7 @@
 /custom/Espo/Modules/*
 !/custom/Espo/Custom/.htaccess
 !/custom/Espo/Modules/.htaccess
+!/custom/Espo/Custom/**
 /install/config.php
 
 client/css/espo/*

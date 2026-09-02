@@ -1,0 +1,30 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "issueDate",
+        "width": 12
+    },
+    {
+        "name": "proveedor",
+        "width": 20
+    },
+    {
+        "name": "category",
+        "width": 15
+    },
+    {
+        "name": "totalAmount",
+        "width": 13
+    },
+    {
+        "name": "paymentStatus",
+        "width": 15
+    },
+    {
+        "name": "assignedUser",
+        "width": 14
+    }
+]

@@ -1,0 +1,16 @@
+{
+    "fields": {
+        "cCGastos": "Gastos",
+        "cTdrFile": "TDR / Requerimiento PDF",
+        "cTdrStatus": "Estado contractual",
+        "cServiceType": "Servicio contratado",
+        "cTdrStartDate": "Inicio del servicio",
+        "cTdrEndDate": "Fin del servicio",
+        "cContractValue": "Valor contractual",
+        "cServiceLevel": "SLA comprometido",
+        "cTdrSummary": "Resumen de requerimientos"
+    },
+    "links": {
+        "cCGastos": "Gastos"
+    }
+}

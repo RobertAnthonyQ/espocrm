@@ -1,0 +1,10 @@
+{
+  "links": {
+    "meetings": "会議",
+    "calls": "通話",
+    "tasks": "タスク"
+  },
+  "labels": {
+    "Create CGasto": "Gasto を作成する"
+  }
+}

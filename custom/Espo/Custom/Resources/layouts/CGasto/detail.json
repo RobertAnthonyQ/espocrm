@@ -1,0 +1,99 @@
+[
+    {
+        "label": "Comprobante",
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "documentNumber"
+                }
+            ],
+            [
+                {
+                    "name": "documentType"
+                },
+                {
+                    "name": "category"
+                }
+            ],
+            [
+                {
+                    "name": "proveedor"
+                },
+                {
+                    "name": "pedido"
+                }
+            ],
+            [
+                {
+                    "name": "issueDate"
+                },
+                {
+                    "name": "dueDate"
+                }
+            ]
+        ]
+    },
+    {
+        "label": "Importes y pago",
+        "rows": [
+            [
+                {
+                    "name": "subtotal"
+                },
+                {
+                    "name": "taxAmount"
+                }
+            ],
+            [
+                {
+                    "name": "totalAmount"
+                },
+                {
+                    "name": "costCenter"
+                }
+            ],
+            [
+                {
+                    "name": "paymentStatus"
+                },
+                {
+                    "name": "paymentMethod"
+                }
+            ],
+            [
+                {
+                    "name": "paymentDate"
+                },
+                {
+                    "name": "deductible"
+                }
+            ]
+        ]
+    },
+    {
+        "label": "Documentos sustentatorios",
+        "rows": [
+            [
+                {
+                    "name": "invoiceFile",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "xmlFile",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ]
+        ]
+    }
+]

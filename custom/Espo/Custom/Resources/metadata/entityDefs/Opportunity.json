@@ -1,0 +1,11 @@
+{
+    "links": {
+        "cCGastos": {
+            "type": "hasMany",
+            "foreign": "pedido",
+            "entity": "CGasto",
+            "audited": false,
+            "isCustom": true
+        }
+    }
+}

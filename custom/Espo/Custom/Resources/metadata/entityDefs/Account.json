@@ -1,0 +1,97 @@
+{
+    "links": {
+        "cCGastos": {
+            "type": "hasMany",
+            "foreign": "proveedor",
+            "entity": "CGasto",
+            "audited": false,
+            "isCustom": true
+        },
+        "cTdrFile": {
+            "type": "belongsTo",
+            "entity": "Attachment",
+            "skipOrmDefs": true,
+            "utility": true
+        }
+    },
+    "fields": {
+        "cTdrFile": {
+            "type": "file",
+            "view": "custom:views/fields/pdf-embed",
+            "accept": [
+                ".pdf"
+            ],
+            "maxFileSize": 30,
+            "audited": true,
+            "isCustom": true
+        },
+        "cTdrStatus": {
+            "type": "enum",
+            "options": [
+                "Sin TDR",
+                "En evaluación",
+                "Vigente",
+                "Por renovar",
+                "Vencido"
+            ],
+            "default": "Sin TDR",
+            "displayAsLabel": true,
+            "audited": true,
+            "style": {
+                "Sin TDR": "default",
+                "En evaluación": "info",
+                "Vigente": "success",
+                "Por renovar": "warning",
+                "Vencido": "danger"
+            },
+            "maxLength": 100,
+            "isCustom": true
+        },
+        "cServiceType": {
+            "type": "enum",
+            "options": [
+                "Abastecimiento recurrente",
+                "Gestión de pedidos",
+                "Logística y distribución",
+                "Kits corporativos",
+                "Cadena de frío",
+                "Servicio integral"
+            ],
+            "displayAsLabel": true,
+            "audited": true,
+            "maxLength": 100,
+            "isCustom": true
+        },
+        "cTdrStartDate": {
+            "notNull": false,
+            "type": "date",
+            "audited": true,
+            "isCustom": true
+        },
+        "cTdrEndDate": {
+            "notNull": false,
+            "type": "date",
+            "audited": true,
+            "isCustom": true
+        },
+        "cContractValue": {
+            "type": "currency",
+            "min": 0,
+            "audited": true,
+            "isCustom": true
+        },
+        "cServiceLevel": {
+            "type": "varchar",
+            "maxLength": 150,
+            "audited": true,
+            "isCustom": true
+        },
+        "cTdrSummary": {
+            "type": "text",
+            "rows": 5,
+            "cutHeight": 300,
+            "audited": true,
+            "isCustom": true
+        }
+    }
+}

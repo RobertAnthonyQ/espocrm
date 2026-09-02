@@ -1,0 +1,91 @@
+[
+    {
+        "label": "Overview",
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "website"
+                }
+            ],
+            [
+                {
+                    "name": "emailAddress"
+                },
+                {
+                    "name": "phoneNumber"
+                }
+            ],
+            [
+                {
+                    "name": "billingAddress"
+                },
+                {
+                    "name": "shippingAddress"
+                }
+            ]
+        ]
+    },
+    {
+        "label": "Details",
+        "rows": [
+            [
+                {
+                    "name": "type"
+                },
+                {
+                    "name": "industry"
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ]
+        ]
+    },
+    {
+        "label": "TDR y condiciones del servicio",
+        "rows": [
+            [
+                {
+                    "name": "cTdrStatus"
+                },
+                {
+                    "name": "cServiceType"
+                }
+            ],
+            [
+                {
+                    "name": "cTdrStartDate"
+                },
+                {
+                    "name": "cTdrEndDate"
+                }
+            ],
+            [
+                {
+                    "name": "cContractValue"
+                },
+                {
+                    "name": "cServiceLevel"
+                }
+            ],
+            [
+                {
+                    "name": "cTdrSummary",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "cTdrFile",
+                    "fullWidth": true
+                }
+            ]
+        ]
+    }
+]

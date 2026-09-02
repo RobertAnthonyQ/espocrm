@@ -1,0 +1,31 @@
+{
+  "fields": {
+    "documentType": "Tipo de comprobante",
+    "documentNumber": "Número de comprobante",
+    "issueDate": "Fecha de emisión",
+    "dueDate": "Fecha de vencimiento",
+    "category": "Categoría",
+    "costCenter": "Centro de costo",
+    "subtotal": "Subtotal",
+    "taxAmount": "IGV",
+    "totalAmount": "Total",
+    "paymentStatus": "Estado de pago",
+    "paymentMethod": "Método de pago",
+    "paymentDate": "Fecha de pago",
+    "invoiceFile": "Factura / sustento PDF",
+    "xmlFile": "Archivo XML",
+    "deductible": "Gasto deducible",
+    "proveedor": "Proveedor",
+    "pedido": "Pedido relacionado"
+  },
+  "links": {
+    "meetings": "Reuniones",
+    "calls": "Llamadas",
+    "tasks": "Tareas",
+    "proveedor": "Proveedor",
+    "pedido": "Pedido relacionado"
+  },
+  "labels": {
+    "Create CGasto": "Crear Gasto"
+  }
+}

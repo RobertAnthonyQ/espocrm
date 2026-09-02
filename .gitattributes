@@ -14,3 +14,4 @@ bin/command text eol=lf
 .gitignore text eol=crlf
 
 *.png binary
+*.pdf binary
