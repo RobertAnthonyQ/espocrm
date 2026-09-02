@@ -125,7 +125,7 @@ ensure_field CGasto paymentMethod paymentMethod 'Método de pago' enum \
 ensure_field CGasto paymentDate paymentDate 'Fecha de pago' date \
     '{"audited":true}'
 ensure_field CGasto invoiceFile invoiceFile 'Factura / sustento PDF' file \
-    '{"required":true,"accept":[".pdf"],"maxFileSize":20,"audited":true}'
+    '{"required":false,"accept":[".pdf"],"maxFileSize":20,"audited":true}'
 ensure_field CGasto xmlFile xmlFile 'Archivo XML' file \
     '{"accept":[".xml","text/xml","application/xml"],"maxFileSize":10,"audited":true}'
 ensure_field CGasto deductible deductible 'Gasto deducible' bool \

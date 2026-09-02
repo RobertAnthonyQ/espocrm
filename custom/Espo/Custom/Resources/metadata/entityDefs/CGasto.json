@@ -174,7 +174,7 @@
         "invoiceFile": {
             "type": "file",
             "view": "custom:views/fields/pdf-embed",
-            "required": true,
+            "required": false,
             "accept": [
                 ".pdf"
             ],
